@@ -121,7 +121,7 @@ h3 {
     background: #fff;
     padding: 30px;
     margin: 5px;
-    border: 2px solid rgb(4, 53, 90);
+    border: 1px solid rgb(4, 53, 90);
 }
 
 .container .imagenEdificio {
@@ -150,7 +150,7 @@ h3 {
 .bienvenida > .imagen,
 .bienvenida > .texto,
 .bienvenida > .div {
-    border: 2px solid rgb(4, 53, 90);
+    border: 1px solid rgb(4, 53, 90);
 }
 
 .bienvenida .titulo {
@@ -186,7 +186,7 @@ h3 {
 .grillaSocios .socios02,
 .grillaSocios .socios03,
 .grillaSocios .socios04 {
-    border: 2px solid rgb(4, 53, 90);
+    border: 1px solid rgb(4, 53, 90);
     padding: 15px;
     margin: 5px;    
 }
@@ -195,11 +195,12 @@ h3 {
     grid-column: 1/5;
 }
 
-.grillaSocios .socios01 {
+.grillaSocios .socios01,
+.grillaSocios .socios02,
+.grillaSocios .socios03,
+.grillaSocios .socios04 {
     padding: 10px;
 }
-
-
 
 .servicios {
     display: flex;
