@@ -7,13 +7,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="author" content="Martín Aracama">
   <link rel="shortcut icon" href="/Assets/Img/android-chrome-192x192.png" />
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="../assets/css/style.css">
   <title>Pasman & Asociados</title>
 </head>
 
 <body>
   <header class="navBar">
-    <a class="navBarLogo" href="../index.html"><img src="../assets/img/Logo_Pasman_sin_fondo.png" alt="Home" /></a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img src="../assets/img/Logo_Pasman_sin_fondo.png"
+            alt="Home" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto ">
+            <li class="nav-item">
+              <a class="nav-link mx-2 active" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="./socios.html">Socios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="./servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="./antecedentes.html">Antecedentes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--<a class="navBarLogo" href="../index.html"><img src="../assets/img/Logo_Pasman_sin_fondo.png" alt="Home" /></a>
     <nav>
       <ul class="navBarNav">
         <li class="navBarItem">
@@ -32,7 +64,7 @@
           <a class="navBarLink" href="./contacto.html">Contacto</a>
         </li>
       </ul>
-    </nav>
+    </nav>-->
   </header>
   <main>
     <div>
@@ -92,9 +124,10 @@
         </div>
       </section>
   </main>
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
 <footer class="foo">
-  <h3>Todos los derechos reservados - cpasman@pasmanabogados.com.ar</h3>
+  <h3 class="fooMail">Todos los derechos reservados - cpasman@pasmanabogados.com.ar</h3>
   <div>
     <ul class="fooItems">
       <li>
