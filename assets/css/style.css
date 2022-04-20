@@ -27,7 +27,7 @@ body {
     padding-bottom: 5px;
     padding-left: 15px;
     padding-right: 15px;
-    background-color: rgb(120, 219, 223);
+    background-color: rgb(6, 47, 74);
 }
 
 @media screen and (min-width: 720px){
@@ -57,7 +57,7 @@ body {
     padding: 5px;
     flex-direction: row;
     text-decoration: none;
-    color: rgb(19, 9, 165);
+    color: rgb(220, 219, 233);
     font-size: large;
     font-weight: 500;
     display: inline-block;
@@ -240,13 +240,8 @@ h3 {
 .grillaServicios .titulo,
 .grillaServicios .segundoTitulo,
 .grillaServicios .areas01,
-.grillaServicios .areas01,
-.grillaServicios .areas01,
-.grillaServicios .areas01,
-.grillaServicios .areas01,
-.grillaServicios .areas01,
 .grillaServicios .consultoria01 {
-    border: 1px solid rgb(2, 37, 63);
+    /*border: 1px solid rgb(2, 37, 63);*/
     padding: 15px;
     margin: 5px;
     text-align: justify;
@@ -254,8 +249,19 @@ h3 {
 
 .areasDePractica {
     text-align: center;
-    background-color: rgba(42, 42, 83, 0.733);
+    background-color: rgb(129, 150, 143);
     color: #fff;
+}
+.tipoArea {
+    text-align: center;
+    background-color: rgba(129, 150, 143);
+    color: #fff;
+}
+
+.consultoria01 {
+    display: flex;
+    flex-direction: row;
+    font-size: small;
 }
 
 /*.areas01 {
@@ -311,7 +317,7 @@ h3 {
 }*/
 
 .foo {
-    background-color: rgb(120, 219, 223);
+    background-color: rgb(6, 47, 74);
     height: 120px;
 }
 
@@ -327,4 +333,8 @@ h3 {
 
 .fooItems .foolink {
     padding: 10px;
+}
+
+.fooMail {
+    color: rgb(220, 219, 233);  
 }
